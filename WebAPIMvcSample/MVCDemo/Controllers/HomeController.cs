@@ -13,11 +13,11 @@ namespace MVCDemo.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public string About()
         {
-            ViewBag.Message = "Your application description page.";
+            //ViewBag.Message = "Your application description page.";
 
-            return View();
+            return "This is Sample MVC application";
         }
 
         public ActionResult Contact()
